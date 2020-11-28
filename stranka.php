@@ -14,7 +14,7 @@
 		{
 			mysqli_close($this->db);
 		}
-	
+	     
 		function nacitajObsah()
 		{
 			$result = mysqli_query($this->db, "select * from uvod");
